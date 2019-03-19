@@ -266,5 +266,45 @@ a.btn:hover{
 .regist .buton:hover{
     background: white;
 }
+.addPoem h1{
+	text-align: center;
+	margin-bottom:none;
+}
+.add{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin:200px;
+	margin-top:20px;
+	text-align: center;
+	align-content: center;
+	margin-top:none; 
+}
 
+.add .buton{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+}
 
+.add .buton:hover{
+    background: white;
+}
+
+.add textarea{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom:10px;
+}
+
+.add select{
+	width: 100%;
+	margin-bottom:10px;
+}
