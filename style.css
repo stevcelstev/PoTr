@@ -308,3 +308,97 @@ a.btn:hover{
 	width: 100%;
 	margin-bottom:10px;
 }
+
+.conn{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin:200px;
+	margin-top:160px;
+	text-align: center;
+	align-content: center; 
+}
+
+.conn h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.conn label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.conn label{
+    font-weight: bold;
+}
+
+.conn input{
+    border-radius: 10px;
+}
+
+.conn .buton{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.conn .buton:hover{
+    background: white;
+}
+
+.connp{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin:200px;
+	margin-top:160px;
+	text-align: center;
+	align-content: center; 
+}
+
+.connp h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.connp label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.connp label{
+    font-weight: bold;
+}
+
+.connp input{
+    border-radius: 10px;
+}
+
+.connp .buton{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.connp .buton:hover{
+    background: white;
+}
