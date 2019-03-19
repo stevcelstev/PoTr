@@ -220,4 +220,51 @@ a.btn:hover{
     background: white;
 }
 
+.regist{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin:200px;
+	margin-top:160px;
+	text-align: center;
+	align-content: center; 
+}
+
+.regist h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.regist label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.regist label{
+    font-weight: bold;
+}
+
+.regist input{
+    border-radius: 10px;
+}
+
+.regist .buton{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.regist .buton:hover{
+    background: white;
+}
+
 
