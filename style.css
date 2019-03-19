@@ -402,3 +402,35 @@ a.btn:hover{
 .connp .buton:hover{
     background: white;
 }
+
+.translator h1{
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.translator .imagine{
+	float :left;
+	margin-left:20px;
+	margin-bottom:40px;
+}
+
+.translator .lista{
+	float :left;
+	width:400px;
+}
+
+.poet h1{
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.poet .imagine{
+	float :left;
+	margin-left:20px;
+	margin-bottom:40px;
+}
+
+.poet .lista{
+	float :left;
+	width:400px;
+}
