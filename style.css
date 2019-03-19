@@ -172,3 +172,52 @@ a.btn:hover{
 	line-height:19px;
 	border-top:#525b60 solid 1px;
 }
+
+.login{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin:200px;
+	margin-top:160px;
+	text-align: center;
+	align-content: center; 
+}
+
+.login h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.login label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.login label{
+    font-weight: bold;
+}
+
+.login input{
+    border-radius: 10px;
+}
+
+.login .buton{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.login .buton:hover{
+    background: white;
+}
+
+
