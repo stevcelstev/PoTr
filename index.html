@@ -1,101 +1,270 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>PoTr</title>
-<link href="css/style.css" rel="stylesheet" >
-</head>
-<body>
+body {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:21px;
+	color:#9FB1B2;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#212b2d;
+}
+#wrapper {
+	width:900px;
+	margin:0 auto;
+	padding:0px 0 10px 0;
+	border:#6C8286 solid 3px;
+}
 
-<div id="wrapper"> 
-  <div id="header"> 
-    <div class="top_banner">
-      <h1>Poem Translater</h1>
-      <p>We make your poem known world wide.</p>
-    </div>
-	
-    <div class="navigation">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Poems</a></li>
-        <li><a href="#">Translations</a></li>
-        <li><a href="#">Contact translater</a></li>
-        <li><a href="#">Contact poet</a></li>
-        <li><a href="#">Login</a></li>
-      </ul>
-    </div>
-  </div>
+#header {
+	padding:0px 0px 20px;
+}
 
-  <div id="page_content"> 
-    <div class="left_side_bar"> 
-      <div class="col_1">
-        <h1>Main Menu</h1>
-        <div class="box">
-          <ul>
-            <li><a href="#">Add a poem</a></li>
-            <li><a href="#">Search a poem by type</a></li>
-            <li><a href="#">Best poem of the week</a></li>
-            <li><a href="#">Add Translation</a></li>
-            <li><a href="#">Available translations</a></li>
-            <li><a href="#">Best translation of the week</a></li>
-          </ul>
-        </div>
-      </div>
+#header .top_banner{
+	background:url(../images/header.jpg) no-repeat left top;
+	height:190px;
+	padding:60px 95px 0 95px;
+	border-bottom:#6C8286 solid 3px;
+	margin-bottom:10px;
+}
 
-      <div class="col_1">
-        <h1>About Us</h1>
-        <div class="box">
-          <p>Some words about our work.</p>
-          <br>
-          <p>We are a group of 2 students who are trying to make the poet's 
-            talent known worldwide, in any language, but with the help 
-            of other users who share the same desire. </p>
-        </div>
-      </div>
-    </div>
+#header h1{
+	font-size:32px;
+	color:White;
+	margin:0px;
+	padding:0px 0px 10px;
+}
 
-    <div class="right_section">
-        <div class="common_content">
-          <h2>Poemul zilei</h2>
-          <hr>
-          <p>There is another sky,
-            <br>
-            Ever serene and fair,
-            <br>
-            And there is another sunshine,
-            <br>
-            Though it be darkness there;
-            <br>
-          </p>
-          <br><h4>Created by : umbrella 1766</h4>
-        </div>
-      <div class="top_content">
-        <div class="column_one">
-          <h2>Cel mai activ traducator</h2>
-          <img src="actor1.jpg" alt="actor1" height="180px" width="180px">
-          <h4>username : nick45</h4>
-          <br>
-          <p><a href="#" class="btn">More infos</a></p></div>
-        <div class="column_two border_left">
-          <h2>Cel mai activ poet</h2>
-          <img src="actor2.jpg" alt="actor2" height="180px" width="180px">
-          <h4>username : beard10</h4>
-          <br>
-          <p><a href="#" class="btn">More infos</a></p></div>
-      </div>
-    </div>
+#header p{
+	font-size:16px;
+	margin-left:1px;
+	color:#c3dae0;
+}
 
-    <div class="clear"></div>
-    
-    <div id="footer">Copyright &copy; Balan Andrei-Bogdan & Stativa Vladut-Alexandru<br>
-    
-    </div>
-	
-  </div>
+.navigation{
+	margin-bottom:5px;
+	padding:13px 5px;
+	background: #333d3f; 
+}
 
-</div>
+.navigation ul{
+	margin:0px;
+	padding:0px;
+}
 
-</body>
-</html>
+.navigation ul li{
+	margin:0px;
+	padding:0px 35px;
+	display:inline;
+	font-size:14px;
+	list-style-type:none;
+	border-right:#91969a dotted 1px; 
+}
+
+.navigation ul li a{
+	color:#F5F5F5;
+	text-decoration:none;
+}
+
+.navigation ul li a:hover{
+	text-decoration:underline;
+}
+
+#page_content{
+	padding:0px 0px 20px;
+}
+
+#page_content .right_section{
+	width:650px;
+	float:right;
+}
+
+#page_content .right_section .top_content{
+	padding:15px 0 0px 0;
+	text-align: center;
+}
+
+#page_content .right_section .top_content .column_one{
+	width:300px;
+	float:left;
+	margin-bottom:20px;
+	border-right:#91969a dotted 1px;
+}
+
+#page_content .right_section .top_content .column_two{
+	width:300px;
+	float:right;
+	margin-bottom:20px;
+}
+
+a.btn{
+	color:#0a0800;
+	font-size:12px;
+	text-decoration:none;
+	padding:6px 13px 6px 13px;
+	font-weight:bold;
+	display:inline-block;
+	border:#566568 solid 1px;
+	background-color:#97aaae;
+}
+
+a.btn:hover{
+	text-decoration:none;
+	background-color: white;
+}
+
+.common_content{
+	padding:0 0 20px 0;
+	text-align: center;
+}
+
+.left_side_bar{
+	width:210px;
+	float:left;
+}
+
+.left_side_bar h1{
+	font-size:20px;
+	padding:0 0 0 25px;
+	font-weight:bold;
+	margin-bottom:15px;
+	color:#9aacae;
+}
+
+.left_side_bar .col_1{
+	padding:0px 0 20px 0;
+}
+
+.left_side_bar .col_1 .box{
+	padding:10px 15px 5px;
+	border:#6e7678 solid 2px;
+}
+
+.left_side_bar .col_1 .box ul{
+	margin:0px;
+	padding:0px;
+}
+
+.left_side_bar .col_1 .box ul li{
+	margin:0px 0px 8px;
+	padding:0px 0px 0px 15px;
+	font-size:13px;
+	list-style-type:none;
+	background:url(../images/li.png) no-repeat left center;
+}
+
+.left_side_bar .col_1 .box ul li a{
+	color:#9aacae;
+	text-decoration:none;
+}
+
+.left_side_bar .col_1 .box ul li a:hover{
+	color:#9aacae;
+	text-decoration:underline;
+}
+
+#footer{
+	clear:both;
+	margin-top:18px;
+	padding:15px 0 0px 0;
+	height:25px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:19px;
+	border-top:#525b60 solid 1px;
+}
+
+.login{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin:200px;
+	margin-top:160px;
+	text-align: center;
+	align-content: center; 
+}
+
+.login h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.login label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.login label{
+    font-weight: bold;
+}
+
+.login input{
+    border-radius: 10px;
+}
+
+.login .buton{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.login .buton:hover{
+    background: white;
+}
+
+.regist{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin:200px;
+	margin-top:160px;
+	text-align: center;
+	align-content: center; 
+}
+
+.regist h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.regist label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.regist label{
+    font-weight: bold;
+}
+
+.regist input{
+    border-radius: 10px;
+}
+
+.regist .buton{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.regist .buton:hover{
+    background: white;
+}
+
+
