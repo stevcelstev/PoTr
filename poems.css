@@ -91,6 +91,31 @@ body {
     font-family: 'Ambarella';
 }
 
+#h2 {
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Ambarella';
+}
+
+.h3 {
+    color: darkgrey;
+    font-size: 17px;
+    text-align: center;
+}
+
+.h4 {
+    text-align: center;
+}
+
+.vers {
+    margin: auto;
+    text-align: center;
+}
+
+.stanza {
+    padding-bottom: 10px;
+}
+
 a.nav-link:link
 {
    color: white;
@@ -122,4 +147,11 @@ a.nav-link:active
     padding-bottom: 10px;
     list-style: none;
     font-size: 17px;
+}
+
+.boxed {
+  background-color: white;
+  width: 320px;
+  padding: 25px;
+  margin: 25px auto;
 }
