@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,20 +18,23 @@
 	
     <div class="navigation">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Poems</a></li>
-        <li><a href="#">Translations</a></li>
-        <li><a href="#">Contact translater</a></li>
-        <li><a href="#">Contact poet</a></li>
-        <li><a href="#">Login</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="PoemList.html">Poems</a></li>
+        <li><a href="traduceri.html">Translations</a></li>
+        <li><a href="contactt.html">Contact translater</a></li>
+        <li><a href="contactp.html">Contact poet</a></li>
+        <li><a href="Login.html">Login</a></li>
       </ul>
     </div>
   </div>
     <div class="addPoem">
         <h1>* Add your own poem *</h1>
         <div class="add">
-            <label for="Category"><h2>Category :</h2></label>
-            <select name="iooho"multiple size="2">
+            <h2>Title of the poem :</h2>
+            <input type="text" id="name" name="name">
+            <br>
+            <h2>Category :</h2>
+            <select name="iooho" multiple size="2">
                 <option value="Love">Love</option>
                 <option value="Spiritual">Spiritual</option>
                 <option value="Sad">Sad</option>
@@ -40,15 +43,23 @@
                 <option value="Haiku">Haiku</option>
             </select>
             <br>
-            <label for="Scrie aici :"><h2>The poem :</h2></label>
+            <h2>Language :</h2>
+            <select name="lan" multiple size="2">
+                <option value="Englis">English</option>
+                <option value="Italia">Italian</option>
+                <option value="Franc">Franch</option>
+                <option value="Germa">German</option>
+              </select>
+            <br>
+            <h2>The poem :</h2>
             <textarea rows="4" cols="50"></textarea>
             <br>
-            <button class="buton" type="button">Add poem </button>
+            <button onclick="location.href='confirm.html'" type="button">Add poem</button>
             <br>
-            <p>No account ? <a href="#"><strong> SIGN UP !</strong></a></p>
+            <p>No account ? <a href="Reg.html"><strong> SIGN UP !</strong></a></p>
         </div>
     </div>
-    <div id="footer">Copyright &copy; Balan Andrei-Bogdan &amp; Stativa Vladut-Alexandru<br>
+    <div id="footer">Copyright &copy; Balan Andrei-Bogdan & Stativa Vladut-Alexandru<br>
     
     </div>
 </div>
