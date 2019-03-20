@@ -80,21 +80,15 @@ body {
 	border-top:#525b60 solid 1px;
 }
 
-@font-face {
-    font-family: 'Ambarella';
-    src: url("Ambarella.ttf");
-}
-
 #h1 {
     text-align: center;
     font-size: 72px;
-    font-family: 'Ambarella';
 }
 
 #h2 {
     text-align: center;
+    color: darkgrey;
     font-size: 54px;
-    font-family: 'Ambarella';
 }
 
 .h3 {
