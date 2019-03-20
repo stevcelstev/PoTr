@@ -185,6 +185,10 @@ a.btn:hover{
 	align-content: center; 
 }
 
+.login label{
+	font-size: 20px;
+}
+
 .login h1{
 	text-align: center;
 	color:white;
@@ -205,7 +209,7 @@ a.btn:hover{
     border-radius: 10px;
 }
 
-.login .buton{
+.login button{
     width: 100%;
     background:#9aacae;
     color: black;
@@ -214,9 +218,10 @@ a.btn:hover{
     font-weight: bold;
 	cursor: pointer;
 	border-radius: 10px;
+	font-size: 18px;
 }
 
-.login .buton:hover{
+.login button:hover{
     background: white;
 }
 
@@ -245,14 +250,15 @@ a.btn:hover{
 }
 
 .regist label{
-    font-weight: bold;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 .regist input{
     border-radius: 10px;
 }
 
-.regist .buton{
+.regist button{
     width: 100%;
     background:#9aacae;
     color: black;
@@ -261,10 +267,15 @@ a.btn:hover{
     font-weight: bold;
 	cursor: pointer;
 	border-radius: 10px;
+	font-size: 16px;
 }
 
-.regist .buton:hover{
+.regist button:hover{
     background: white;
+}
+
+.addPoem{
+	margin-top:150px;
 }
 .addPoem h1{
 	text-align: center;
@@ -283,7 +294,7 @@ a.btn:hover{
 	margin-top:none; 
 }
 
-.add .buton{
+.add button{
     width: 100%;
     background:#9aacae;
     color: black;
@@ -292,9 +303,10 @@ a.btn:hover{
     font-weight: bold;
 	cursor: pointer;
 	border-radius: 10px;
+	font-size: 16px;
 }
 
-.add .buton:hover{
+.add button:hover{
     background: white;
 }
 
@@ -303,7 +315,9 @@ a.btn:hover{
 	border-radius: 10px;
 	margin-bottom:10px;
 }
-
+.add p{
+	font-size: 15px;
+}
 .add select{
 	width: 100%;
 	margin-bottom:10px;
@@ -334,14 +348,15 @@ a.btn:hover{
 }
 
 .conn label{
-    font-weight: bold;
+	font-weight: bold;
+	font-size:15px;
 }
 
 .conn input{
     border-radius: 10px;
 }
 
-.conn .buton{
+.conn button{
     width: 100%;
     background:#9aacae;
     color: black;
@@ -350,9 +365,10 @@ a.btn:hover{
     font-weight: bold;
 	cursor: pointer;
 	border-radius: 10px;
+	font-size:15px;
 }
 
-.conn .buton:hover{
+.conn button:hover{
     background: white;
 }
 
@@ -381,14 +397,15 @@ a.btn:hover{
 }
 
 .connp label{
-    font-weight: bold;
+	font-weight: bold;
+	font-size: 16px; 
 }
 
 .connp input{
     border-radius: 10px;
 }
 
-.connp .buton{
+.connp button{
     width: 100%;
     background:#9aacae;
     color: black;
@@ -397,9 +414,10 @@ a.btn:hover{
     font-weight: bold;
 	cursor: pointer;
 	border-radius: 10px;
+	font-size: 15px;
 }
 
-.connp .buton:hover{
+.connp button:hover{
     background: white;
 }
 
@@ -433,4 +451,84 @@ a.btn:hover{
 .poet .lista{
 	float :left;
 	width:400px;
+}
+
+.Confirm h1{
+	text-align: center;
+	margin-top: 290px;
+	margin-bottom: none;
+}
+
+.Confirm h2{
+	text-align: center;
+	margin-top: none;
+	margin-bottom: 200px;
+}
+
+.bestpoem {
+	text-align: center;
+}
+
+.addt{
+	margin-top:150px;
+}
+.addt h1{
+	text-align: center;
+	margin-bottom:none;
+}
+.addtrad{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin:200px;
+	margin-top:20px;
+	text-align: center;
+	align-content: center;
+	margin-top:none; 
+}
+
+.addtrad{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.addtrad button:hover{
+    background: white;
+}
+
+.addtrad textarea{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom:10px;
+}
+.addtrad p{
+	font-size: 15px;
+}
+.addtrad select{
+	width: 100%;
+	margin-bottom:10px;
+}
+
+
+.addtrad label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+.addtrad label{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.addtrad input{
+    border-radius: 10px;
 }
