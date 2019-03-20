@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>PoTr</title>
+<link href="css/style.css" rel="stylesheet" >
+</head>
+<body>
+
+<div id="wrapper"> 
+  <div id="header"> 
+    <div class="top_banner">
+      <h1>Poem Translater</h1>
+      <p>We make your poem known world wide.</p>
+    </div>
+	
+    <div class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="PoemList.html">Poems</a></li>
+        <li><a href="traduceri.html">Translations</a></li>
+        <li><a href="contactt.html">Contact translater</a></li>
+        <li><a href="contactp.html">Contact poet</a></li>
+        <li><a href="Login.html">Login</a></li>
+      </ul>
+    </div>
+  </div>
+    <div class="addt">
+        <h1>* Add your own translation *</h1>
+        <div class="addtrad">
+            <label for="name">Title of the poem</label>
+            <input type="text" id="name" name="name">
+            <br>
+              <div class="nimic">
+              <label for="username">The poet's username</label>
+              <input type="text" id="username" name="username">
+              </div>
+              <br>   
+              <p>Category</p>
+              <select name="iooho" multiple size="2">
+                <option value="Love">Love</option>
+                <option value="Spiritual">Spiritual</option>
+                <option value="Sad">Sad</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Funny">Funny</option>
+                <option value="Haiku">Haiku</option>
+              </select>
+              <br>
+              <p>Language of the poem</p>
+              <select name="lan" multiple size="2">
+                <option value="Englis">English</option>
+                <option value="Italia">Italian</option>
+                <option value="Franc">Franch</option>
+                <option value="Germa">German</option>
+              </select>
+                <br>
+                <p>Language of the translation</p>
+              <select name="lan2" multiple size="2">
+                <option value="Engli">English</option>
+                <option value="Ital">Italian</option>
+                <option value="Fran">Franch</option>
+                <option value="Germa">German</option>
+              </select>
+                <br>
+                <p>The translation :</p>
+            <textarea rows="4" cols="50"></textarea>
+            <br>
+            <button onclick="location.href='confirm1.html'" type="button">Add translation</button>
+            <br>
+            <p>OR</p>
+            <button onclick="location.href='Export.html'" type="button">Export</button>
+            <p>No account ? <a href="Reg.html"><strong> SIGN UP !</strong></a></p>
+        </div>
+    </div>
+    <div id="footer">Copyright &copy; Balan Andrei-Bogdan & Stativa Vladut-Alexandru<br>
+    
+    </div>
+</div>
+
+</body>
+</html>
